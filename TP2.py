@@ -26,6 +26,7 @@ while fin_jeu == False:
 
         if rejouer == "o":
             nb_mystere = randint(0,1000)
+            nb_essais = 0
 
         elif rejouer == "n":
             print("Au revoir.")
