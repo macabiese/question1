@@ -7,6 +7,7 @@ from random import *
 # definition des variables
 nb_mystere = randint(0,1000)
 fin_jeu = False
+nb_essais = 0
 rejouer = None
 
 #boucle qui prends fin lorsque le joueur ne veut plus jouer
